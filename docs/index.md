@@ -19,6 +19,7 @@ NERVA has both a Graphical User Interface (GUI) and a Command-Line Interface (CL
 * [More information about NERVA](about/)
 * [NERVA Developer Guide](guides/develop/)
 * [NERVA CLI Guide](guides/cli/) (with common issues & FAQ)
+* [NervaOne Quick Guide](guides/nervaone/)
 * [NERVA GUI Quick Guide](guides/gui/)
 * [Ledger Hardware Wallet Guide](guides/ledger/)
 * [Mining FAQ](guides/mining/)
