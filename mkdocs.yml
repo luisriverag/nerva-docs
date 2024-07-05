@@ -12,8 +12,9 @@ copyright: "&copy; 2018 - 2023 <strong>NERVA Project</strong>"
 nav:
     - About: 'about.md'
     - User Guides:
-        - 'GUI Guide': 'guides/gui.md'
+        - 'NervaOne Guide': 'guides/nervaone.md'
         - 'CLI Guide': 'guides/cli.md'
+        - 'GUI Guide (OLD)': 'guides/gui.md'
         - 'Mining FAQ': 'guides/mining.md'
         - 'Developer Guide': 'guides/develop.md'
         - 'Ledger Hardware Wallet': 'guides/ledger.md'
