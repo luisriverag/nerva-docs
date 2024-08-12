@@ -1,11 +1,22 @@
 # NervaOne Guide
 NervaOne is a new, modern GUI application. It's a multi-coin, open source wallet and CPU miner that currently supports Nerva, Monero, Wownero and Dash. More coins will be added in the future. This is non-custodial wallet so you are running client tools on your own device.
 
+
+## NervaOne Videos
+
+@evanation81 created a few videos about NervaOne. You can view them below:
+
+[How to set up NervaOne, mine XNV, create wallet, save seed phrase, open wallet, view transactions][evanation-01].
+
+[Mining Nerva using multiple nodes on the same network][evanation-02].
+
+
 ## Screenshots
 
 Daemon view is where you see connections and control mining:
 
 ![nervaone-daemon](img/nervaone-daemon.png)
+
 
 ## Downloading
 
@@ -13,9 +24,11 @@ Binary distributions can be found [here][nerva-downloads-link].
 
 Select the appropriate file for the target platform (Windows, Linux or macOS).
 
+
 ## Installing
 
 There is nothing to install. You just download the zip file, extract it and run the application!
+
 
 ## Starting up NervaOne Desktop for the first time
 
@@ -24,6 +37,7 @@ First time you run NervaOne, it will ask you to select coin. Select Nerva (XNV) 
 ![nervaone-first-run](img/nervaone-first-run.png)
 
 It will give up option to change client tools download link and once you confirm, it will download, extract and start nervad
+
 
 ## Creating a Wallet / Restoring a Wallet
 
@@ -68,6 +82,16 @@ Enter your password if asked and press OK.
 
 Your transaction should now be on the way to the recipient's wallet!
 
+
+## Moving Wallet to Another Device
+
+If you'd like to move your wallet to another device, you can just copy wallet files.
+
+Go to: Wallet Setup and click "Open Wallets Folder". Copy the wallet that you want to move and paste it to the same folder on another device.
+
+Make sure you copy both .cache and .keys files or your wallet might not open properly.
+
+
 ## Exiting the Wallet
 
 To exit NervaOne, simply click X on the top.
@@ -90,6 +114,7 @@ Those should be the commands that you need to run:
 
 If you do not have homebrew, you'll need to install it from [here][homebrew].
 
+
 ## How to set up NervaOne on a computer that does not support AES
 
 * When first starting NervaOne and after you select Nerva (XNV), change default client tools download link to non-minimal version: https://github.com/nerva-project/nerva/releases/download/v0.1.8.0/nerva-v0.1.8.0_windows.zip
@@ -109,3 +134,5 @@ NOTE: You will not be able to create/open wallet in non-aes version
 [nerva-downloads-link]: https://nerva.one/#downloads
 [macos-library-error]: https://dede.dev/posts/Fixing-Library-not-loaded-Error-on-macOS/
 [homebrew]: https://brew.sh/
+[evanation-01]: https://www.youtube.com/watch?v=poLrP65jsf4&t=325s
+[evanation-02]: https://www.youtube.com/watch?v=BYsSI5mAwCU
